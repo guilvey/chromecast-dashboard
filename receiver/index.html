@@ -1,34 +1,23 @@
 <html>
+  <!-- inspired from https://github.com/boombatower/chromecast-dashboard -->
   <head>
-    <title>Dashboard</title>
-
+    <title></title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin+Condensed:700">
-    <link rel="stylesheet" href="loading.css">
-    <style>
-#top, #bottom, #left, #right {
-	background: #CE0058;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 2px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 2px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-    </style>
   </head>
   <body>
-    <div id="bottom"></div>
     <iframe id="dashboard" scrolling="no"></iframe>
-    <div id="loading" class="loading wave">Loading</div>
+    <div class="cs-loader" id="loading">
+      
+      <div class="cs-loader-inner">
+          <h1>Hello !</h1>
+        <label>	●</label>
+        <label>	●</label>
+        <label>	●</label>
+        <label>	●</label>
+        <label>	●</label>
+        <label>	●</label>
+      </div>
+    </div>
   </body>
 
   <!-- Post load all the goods used to interact with sender. -->

@@ -1,27 +1,19 @@
 <html>
-  <!-- inspired from https://github.com/boombatower/chromecast-dashboard -->
-  <head>
-    <title></title>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <iframe id="dashboard" scrolling="no"></iframe>
-    <div class="cs-loader" id="loading">
-      
-      <div class="cs-loader-inner">
-          <h1>Hello !</h1>
-        <label>	●</label>
-        <label>	●</label>
-        <label>	●</label>
-        <label>	●</label>
-        <label>	●</label>
-        <label>	●</label>
+    <!-- inspired from https://github.com/boombatower/chromecast-dashboard -->
+    <head>
+      <title></title>
+      <link rel="stylesheet" href="main.css">
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    </head>
+    <body>
+      <iframe id="dashboard" scrolling="no"></iframe>
+      <div class="cs-loader" id="loading">
+          <h1 class="hello">Hello !</h1>
       </div>
-    </div>
-  </body>
-
-  <!-- Post load all the goods used to interact with sender. -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
-  <script src="main.js"></script>
-</html>
+    </body>
+  
+    <!-- Post load all the goods used to interact with sender. -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+    <script src="main.js"></script>
+  </html>
